@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2025-02-09T22:03:59.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="24.6.4" etag="FLQGtS4IrbaFdD_EzZhf" type="github">
+<mxfile host="app.diagrams.net" modified="2025-02-09T22:22:09.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" etag="_xrrrhLtNgWARULdh2xb" version="24.6.4" type="github">
   <diagram name="Página-1" id="RkKDzXB69765_Dg7q8pd">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPQ6sBjm5yYhS_eoTeXD-2" target="YPQ6sBjm5yYhS_eoTeXD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-2" value="Pedido via RabbitMq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPQ6sBjm5yYhS_eoTeXD-3" target="YPQ6sBjm5yYhS_eoTeXD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-3" value="Listener/Java/SpringBoot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="300" y="95" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.145;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" edge="1" parent="1" source="YPQ6sBjm5yYhS_eoTeXD-5" target="YPQ6sBjm5yYhS_eoTeXD-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="190" />
+              <mxPoint x="375" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-5" value="Base H2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-7" value="Processar e salvar pedido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YPQ6sBjm5yYhS_eoTeXD-9" target="YPQ6sBjm5yYhS_eoTeXD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-9" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPQ6sBjm5yYhS_eoTeXD-10" target="YPQ6sBjm5yYhS_eoTeXD-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-10" value="API consultar pedidos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-13" value="Autenticar API/Token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="220" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YPQ6sBjm5yYhS_eoTeXD-10" target="YPQ6sBjm5yYhS_eoTeXD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-17" value="Retorno dos dados" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="308" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQ6sBjm5yYhS_eoTeXD-18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
