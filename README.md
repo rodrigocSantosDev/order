@@ -1,3 +1,6 @@
+
+![ProcessarPedidos drawio](https://github.com/user-attachments/assets/eea18fa9-0d3e-4e20-ad82-8b25106ed3fc)
+
 Order Service API
 
 📌 Sobre o Projeto
